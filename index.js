@@ -82,7 +82,40 @@ inquirer.prompt([
             return false;
           }
         }
+      },
+      {
+        type: 'rawlist',
+        name: 'license',
+        message: 'What license does this project use?',
+        choices: ['Apache License 2.0', 'BSD 3-Clause "New" or "Revised" license', 'BSD 2-Clause "Simplified" or "FreeBSD" license', 'GNU General Public License (GPL)', 'GNU Library or "Lesser" General Public License (LGPL)', 'MIT license', 'Mozilla Public License 2.0', 'Common Development and Distribution License', 'Eclipse Public License version 2.0']
+    },
+    {
+      type: 'input',
+      name: 'github',
+      message: 'Please enter your GitHub username (Required)',
+      validate: usageInput => {
+        if (usageInput) {
+          return true;
+        } else {
+          console.log('Please enter your GitHub username!');
+          return false;
+        }
       }
+    },
+    {
+      type: 'input',
+      name: 'email',
+      message: 'Please enter your email address(Required)',
+      validate: usageInput => {
+        if (usageInput) {
+          return true;
+        } else {
+          console.log('Please enter usage information!');
+          return false;
+        }
+      }
+    },
+
 ]).then(answers => console.log(answers));
 
 // TODO: Create a function to write README file
