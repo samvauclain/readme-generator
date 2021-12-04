@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const doIt = require('./src/readme-template');
+const generateReadme = require('./src/readme-template');
 
 // TODO: Create an array of questions for user input
 
@@ -95,7 +95,7 @@ const questions = () => {
       type: 'list',
       name: 'license',
       message: 'What license does this project use?',
-      choices: ['Apache License 2.0', 'BSD 3-Clause "New" or "Revised" license', 'BSD 2-Clause "Simplified" or "FreeBSD" license', 'GNU General Public License (GPL)', 'GNU Library or "Lesser" General Public License (LGPL)', 'MIT license', 'Mozilla Public License 2.0', 'Common Development and Distribution License', 'Eclipse Public License version 2.0']
+      choices: ['Apache License 2.0', 'BSD 3-Clause License', 'GNU GPL v3', 'The Hippocratic License 2.1', 'IBM Public License Version 1.0', 'ISC License (ISC)', 'The MIT License', 'Mozilla Public License 2.0']
     },
     {
       type: 'input',
@@ -129,11 +129,10 @@ const questions = () => {
     console.log("answers:")
     // return(answers);
 
-    fs.writeFile('./README.md', doIt(answers), err => {
+    fs.writeFile('./README.md', generateReadme(answers), err => {
       if (err) {
         return err;
       }
-      // return `# ${answers.title} `
     })
   })
 }
