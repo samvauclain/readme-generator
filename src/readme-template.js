@@ -33,6 +33,8 @@ switch(templateData.license) {
 
 return `
 # ${templateData.title}
+## License
+${templateData.license}
 ## Description
 ${templateData.description}
 ## Installation
@@ -43,8 +45,6 @@ ${templateData.usage}
 ${templateData.contributing}
 ## Tests
 ${templateData.tests}
-## License
-${templateData.license}
 ## Github
 https://github.com/${templateData.github}/
 ## Email

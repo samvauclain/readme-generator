@@ -95,7 +95,7 @@ const questions = () => {
       type: 'list',
       name: 'license',
       message: 'What license does this project use?',
-      choices: ['Apache License 2.0', 'BSD 3-Clause License', 'GNU GPL v3', 'The Hippocratic License 2.1', 'IBM Public License Version 1.0', 'ISC License (ISC)', 'The MIT License', 'Mozilla Public License 2.0']
+      choices: ['No License', 'Apache License 2.0', 'BSD 3-Clause License', 'GNU GPL v3', 'The Hippocratic License 2.1', 'IBM Public License Version 1.0', 'ISC License (ISC)', 'The MIT License', 'Mozilla Public License 2.0']
     },
     {
       type: 'input',
