@@ -127,7 +127,7 @@ const questions = () => {
     console.log(answers)
 
     // return(answers);
-    writeToFile('./README.md', generateMarkdown(answers));
+    writeToFile('./dist/README.md', generateMarkdown(answers));
   })
 }
 

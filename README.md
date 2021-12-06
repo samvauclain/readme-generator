@@ -1,29 +1,51 @@
+# Professional README Generator Starter Code
 
-# readme generator
+[How to create a Professional README](./readme-guide.md)
 
-## Table of Contents
-* [License](#license)
-* [Description](#description)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Github](#github)
-* [Email](#email)
-
-## License
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
-## Description
-generates readmes
 ## Installation
-install with npm
-## Usage
-gll
-## Contributing
-lel
-## Tests
-eaa
-## Github
-https://github.com/samvauclain/
-## Email
-<a href="mailto:samvauclain@gmail.com">samvauclain@gmail.com</a>
+- Install node.js if you don't already have it [Download Here](https://nodejs.org/en/)
+- You can check to see if node is installed by typing **node -v** into your terminal 
+- Fork the repo.
+- Clone to your local directory of choice.
+- In your root folder, install the dependencies by entering **npm install** in your terminal.
+
+---
+
+## Walkthrough Video
+Once you have everything installed, [Click to watch:](https://watch.screencastify.com/v/P3M7tztolxYhY2VXseak)
+
+Covered in the video:
+- Type node index to bring up the prompts
+- Once completed, look in the **dist/** folder to find your generated README.md file!
+
+---
+
+## Acceptance Criteria
+
+AS A developer
+I WANT a README generator
+SO THAT I can quickly create a professional README for a new project
+
+GIVEN a command-line application that accepts user input
+
+WHEN I am prompted for information about my application repository
+- THEN a high-quality, professional README file is generated with the title of my project and sections 
+entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+
+WHEN I enter my project title
+- THEN this is displayed as the title of the README
+
+WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
+- THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+
+WHEN I choose a license for my application from a list of options
+- THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+
+WHEN I enter my GitHub username
+- THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+
+WHEN I enter my email address
+- THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+
+WHEN I click on the links in the Table of Contents
+- THEN I am taken to the corresponding section of the README
