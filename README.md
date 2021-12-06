@@ -1,18 +1,29 @@
 
-# yyy
+# readme generator
+
+## Table of Contents
+* [License](#license)
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Github](#github)
+* [Email](#email)
+
 ## License
-[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 ## Description
-yyyy
+generates readmes
 ## Installation
-yyy
+install with npm
 ## Usage
-yyyyy
+gll
 ## Contributing
-yyyyy
+lel
 ## Tests
-yyyy
+eaa
 ## Github
-https://github.com/yyy/
+https://github.com/samvauclain/
 ## Email
-<a href="mailto:yy">yy</a>
+<a href="mailto:samvauclain@gmail.com">samvauclain@gmail.com</a>
