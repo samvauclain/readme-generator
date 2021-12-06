@@ -48,8 +48,8 @@ return `
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Tests](#tests)
-* [Github](#github)
-* [Email](#email)
+* [Questions](#questions)
+
 
 ## License
 ${data.license}
@@ -63,10 +63,9 @@ ${data.usage}
 ${data.contributing}
 ## Tests
 ${data.tests}
-## Github
-https://github.com/${data.github}/
-## Email
-<a href="mailto:${data.email}">${data.email}</a>
+## Questions
+* https://github.com/${data.github}/
+* <a href="mailto:${data.email}">${data.email}</a>
 `;
 }
 

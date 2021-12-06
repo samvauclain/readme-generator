@@ -1,5 +1,5 @@
 
-# readme generator
+# Readme Generator
 
 ## Table of Contents
 * [License](#license)
@@ -8,22 +8,21 @@
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Tests](#tests)
-* [Github](#github)
-* [Email](#email)
+* [Questions](#questions)
+
 
 ## License
-[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
-generates a read me file based on your answers
+Generates a readme file for your project based on your answers.
 ## Installation
-shown in project's readme
+See project's README.md file for installation instructions.
 ## Usage
-use freely
+Use freely. Using a space to start an answer  may cause formatting errors.
 ## Contributing
-contribute through github
+Please fork, and submit to contribute when done
 ## Tests
-testing testing 123
-## Github
-https://github.com/samvauclain/
-## Email
-<a href="mailto:samvauclain@outlook.com">samvauclain@outlook.com</a>
+No tests are written for this at this time
+## Questions
+* https://github.com/samvauclain/
+* <a href="mailto:samvauclain@outlook.com">samvauclain@outlook.com</a>
